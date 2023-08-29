@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="caffeweb.css">
+  
+</head>
+<body>
+
+<header class="header">
+
+  <a href="#" class="logo"><i class="fas fa-coffee"></i>Cafe</a>
+
+  <nav class="navbar">
+    <a href="homepage.html">home</a>
+    <a href="aboutpage.html">about</a>
+    <a href="menupage.html">menu</a>
+    <a href="contactpage.html">contact</a>
+    <a href="#home">home</a>
+    <a href="#home">home</a>
+  </nav>
+
+
+  <div class="icons">
+    <div class="fas fa-bars" id="menu-btn"></div>
+    <div class="fas fa-search" id="search-btn"></div>
+    <a href="cart_view.html"><div class="fas fa-shopping-cart" id="cart-btn"></div></a>
+    <div class="fas fa-user" id="login-btn"></div>
+  </div>
+
+  <form action="" class="search-form">
+    <input type="search" class="search-box" placeholder="Tìm kiếm ...">
+    <label for="search-box" class="fa fa-search"></label>
+    </form>
+
+  <form action="" class="login-form">
+    <h3>login now</h3>
+    <input type="email" placeholder="Email" class="box">
+    <input type="password" placeholder="Mật khẩu" class="box">
+    <p>Quên mật khẩu ?<a href="#"> Lấy lại</a></p>
+    <p>Chưa có tài khoản ?<a href="register.html"> Tạo tài khoản mới</a></p>
+    <input type="submit" value="Đăng nhập" class="btn">
+  </form>
+
+</header>
+
+<section class="home" id="">
+
+  <div class="content">
+    <h3>Fresh and<span> onganic</span> product for your</h3>
+    <p>I would take 2 hours just to design headers of the site. And my CSS was too big, just for CSS, 
+      and you have created a beautiful header with so much concise CSS. 
+      You rock! Please tell me which theme of VS code you're using?</p>
+      <a href="#" class="btn">Xem menu</a>
+  </div>
+
+</section>
+
+<section class="features" id="features">
+
+  <h1 class="heading"><span>Dịch vụ</span> của chúng tôi</h1>
+
+  <div class="box-container">
+    <div class="box">
+      <img src="/thumbnails/top-10-quan-cafe-gan-ga-nha-trang-nhung-diem-song-ao-dep-chang-muon-roi-1623151896.jpg"  alt="">
+      <h3>Chất lượng và hương vị</h3>
+      <p>I would take 2 hours just to design headers of the site. And my CSS was too big, just for CSS, 
+        and you have created a beautiful header with so much concise CSS. 
+        You rock! Please tell me which theme of VS code you're using?</p>
+      <a href="#" class="btn">Tìm hiểu thêm</a></div>
+
+    <div class="box">
+      <img src="/thumbnails/top-10-quan-cafe-gan-ga-nha-trang-nhung-diem-song-ao-dep-chang-muon-roi-1623151896.jpg"  alt="">
+      <h3>Giao hàng tận nơi</h3>
+      <p>I would take 2 hours just to design headers of the site. And my CSS was too big, just for CSS, 
+        and you have created a beautiful header with so much concise CSS. 
+        You rock! Please tell me which theme of VS code you're using?</p>
+      <a href="#" class="btn">Tìm hiểu thêm</a></div>
+
+    <div class="box">
+      <img src="/thumbnails/top-10-quan-cafe-gan-ga-nha-trang-nhung-diem-song-ao-dep-chang-muon-roi-1623151896.jpg"  alt="">
+      <h3>Thanh toán tiện lợi</h3>
+      <p>I would take 2 hours just to design headers of the site. And my CSS was too big, just for CSS, 
+            and you have created a beautiful header with so much concise CSS. 
+            You rock! Please tell me which theme of VS code you're using?</p>
+      <a href="#" class="btn">Tìm hiểu thêm</a>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="categores" id="categores">
+
+  <h1 class="heading"> our <span>categores</span> </h1>
+
+  <div class="box-container">
+    <a href="category.html" class="box">
+      <img src="/thumbnails/blog-3.jpeg">
+      <h3>Fresh and organic</h3>
+    </a>
+ 
+    <a href="category.html" class="box">
+      <img src="/thumbnails/blog-3.jpeg">
+      <h3>Fresh and organic</h3>
+    </a>
+
+    <a href="category.html" class="box">
+      <img src="/thumbnails/blog-3.jpeg">
+      <h3>Fresh and organic</h3>
+    </a>
+
+    <a href="category.html" class="box">
+  <img src="/thumbnails/blog-3.jpeg">
+      <h3>Fresh and organic</h3>
+    </a>
+  </div>
+
+</section>
+
+<section class="product" id="product">
+
+  <h1 class="heading"> our <span>product</span> </h1>
+
+  <div class="box-container">
+    <form accept="" method="post" class="box">
+      <img src="/thumbnails/blog-3.jpeg">
+      <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+      <a href="category.html" class="cat">fast food</a>
+      <div class="box-price">Giá: 10.000 vnd</div>
+      <div class="flex">
+        <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+     </div>
+      <button type="submit" name="add_to_cart" class="btn">Thêm vào giỏ hàng</button>
+    </form>
+ 
+      <form accept="" method="post" class="box">
+        <img src="/thumbnails/blog-3.jpeg">
+        <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+        <a href="category.html" class="cat">fast food</a>
+        <div class="box-price">Giá: 10.000 vnd</div>
+        <div class="flex">
+          <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+       </div>
+        <a href="#" class="btn">Thêm vào giỏ hàng</a>
+      </form>
+
+        <form accept="" method="post" class="box">
+          <img src="/thumbnails/blog-3.jpeg">
+          <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+          <a href="category.html" class="cat">fast food</a>
+          <div class="box-price">Giá: 10.000 vnd</div>
+          <div class="flex">
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+          <a href="#" class="btn">Thêm vào giỏ hàng</a>
+        </form>
+
+  </div>
+    
+  </div>
+
+</section>
+
+<section class="product" id="product">
+
+  <div class="box-container">
+    <form accept="" method="post" class="box">
+      <img src="/thumbnails/blog-3.jpeg">
+      <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+      <a href="category.html" class="cat">fast food</a>
+      <div class="box-price">Giá: 10.000 vnd</div>
+      <div class="flex">
+        <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+     </div>
+      <a href="#" class="btn">Thêm vào giỏ hàng</a>
+    </form>
+ 
+      <form accept="" method="post" class="box">
+        <img src="/thumbnails/blog-3.jpeg">
+        <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+        <a href="category.html" class="cat">fast food</a>
+        <div class="box-price">Giá: 10.000 vnd</div>
+        <div class="flex">
+          <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+       </div>
+        <a href="#" class="btn">Thêm vào giỏ hàng</a>
+      </form>
+
+        <form accept="" method="post" class="box">
+          <img src="/thumbnails/blog-3.jpeg">
+          <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+          <a href="category.html" class="cat">fast food</a>
+          <div class="box-price">Giá: 10.000 vnd</div>
+          <div class="flex">
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+          <a href="#" class="btn">Thêm vào giỏ hàng</a>
+        </form>
+
+  </div>
+    
+  </div>
+</section>
+
+
+<section class="map" id="map">
+
+  <div class="contact" id="contact">
+    <h1 class="heading">Liên hệ</h1>
+    <div class="row">
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7449.118638767531!2d105.93399883149!3d21.010294867361164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a8d0379f6941%3A0x4a8c3073b121915d!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBOw7RuZyBOZ2hp4buHcCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1668328346548!5m2!1svi!2s" 
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <form action="">
+        <h3>Liên hệ</h3>
+        <div class="inputBox">
+          <span class="fas fa-user"></span>
+          <input type="text" placeholder="Tên">
+        </div>
+        
+        <div class="inputBox">
+          <span class="fas fa-envelope"></span>
+          <input type="email" placeholder="Email">
+        </div>
+
+        <div class="inputBox">
+          <span class="fas fa-phone"></span>
+          <input type="text" placeholder="Số điện thoại">
+        </div>
+
+        <input type="submit" value="Liên hệ" class="btn">
+       </form>
+    </div>
+  </div>
+
+</section>
+
+<section class="blogs" id="blogs">
+
+  <h1 class="heading">our <span> Blogs</span></h1>
+
+  <div class="box-container">
+
+    <div class="box">
+    <img src="/thumbnails/blog-1.jpeg" alt="">
+    <div class="content">
+      <div class="icons">
+        <a href="#"> <i class="fas fa-user"></i>Viết bởi</a>
+        <a href="#"> <i class="fas fa-calendar"></i>Time</a>
+      </div>
+      <h3>Name so long</h3>
+      <p>
+        I would take 2 hours just to design headers of the site. And my CSS was too big, just for CSS, 
+            and you have created a beautiful header with so much concise CSS. 
+            You rock! Please tell me which theme of VS code you're using?</p>
+      </p>
+      <a href="#" class="btn">Đọc thêm</a>
+  </div>
+    </div>
+
+  <div class="box">
+    <img src="/thumbnails/blog-3.jpeg" alt="">
+    <div class="content">
+      <div class="icons">
+        <a href="#"> <i class="fas fa-user"></i>Viết bởi</a>
+        <a href="#"> <i class="fas fa-calendar"></i>Time</a>
+      </div>
+      <h3>Name so long</h3>
+      <p>
+        I would take 2 hours just to design headers of the site. And my CSS was too big, just for CSS, 
+            and you have created a beautiful header with so much concise CSS. 
+            You rock! Please tell me which theme of VS code you're using?</p>
+      </p>
+      <a href="#" class="btn">Đọc thêm</a>
+  </div>
+  </div>
+
+  <div class="box">
+    <img src="/thumbnails/blog-2.jpeg" alt="">
+    <div class="content">
+      <div class="icons">
+        <a href="#"> <i class="fas fa-user"></i>Viết bởi</a>
+        <a href="#"> <i class="fas fa-calendar"></i>Time</a>
+      </div>
+      <h3>Name so long</h3>
+      <p>
+        I would take 2 hours just to design headers of the site. And my CSS was too big, just for CSS, 
+            and you have created a beautiful header with so much concise CSS. 
+            You rock! Please tell me which theme of VS code you're using?</p>
+      </p>
+      <a href="#" class="btn">Đọc thêm</a>
+  </div>
+  </div>
+  </div>
+</section>
+
+<section class="footer">
+
+  <div class="box-container">
+
+    <div class="box">
+      <h3>Caffe<i class="fas fa-coffee"></i></h3>
+      <p>I would take 2 hours just to design headers of the site. And my CSS was too big, just for CSS, 
+        and you have created a beautiful header with so much concise CSS. 
+        You rock! Please tell me which theme of VS code you're using?</p>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+    </div>
+
+    <div class="box">
+      <h3>Liên Lạc</h3>
+      <a hidden# class="links"><i class="fas fa-phone"></i>123456789</a>
+      <a hidden# class="links"><i class="fas fa-envelope"></i>123456789</a>
+      <a hidden# class="links"><i class="fas fa-map-marker-alt"></i>Anywhere so far</a>
+    </div>
+   
+  </div> 
+</section>
+
+<div class="loader">
+  <img src="/thumbnails/Circles-menu-3.gif" alt="">
+</div>
+
+<div id="backtop">
+  <i class="fas fa-chevron-up"></i>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="coffeweb.js"></script>
+</body>
+</html>

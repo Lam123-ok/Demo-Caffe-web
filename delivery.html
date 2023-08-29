@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>delivery</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="caffeweb.css">
+  
+</head>
+<body>
+
+<header class="header">
+
+  <a href="#" class="logo"><i class="fas fa-coffee"></i>Cafe</a>
+
+  <nav class="navbar">
+    <a href="homepage.html">home</a>
+    <a href="aboutpage.html">about</a>
+    <a href="menupage.html">menu</a>
+    <a href="contactpage.html/">contact</a>
+    <a href="#home">home</a>
+    <a href="#home">home</a>
+  </nav>
+
+
+  <div class="icons">
+    <div class="fas fa-bars" id="menu-btn"></div>
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <div class="fas fa-user" id="login-btn"></div>
+  </div>
+
+  <form action="" class="search-form">
+    <input type="search" class="search-box" placeholder="Tìm kiếm ...">
+    <label for="search-box" class="fa fa-search"></label>
+    </form>
+
+  <form action="" class="login-form">
+    <h3>login now</h3>
+    <input type="email" placeholder="Email" class="box">
+    <input type="password" placeholder="Mật khẩu" class="box">
+    <p>Quên mật khẩu ?<a href="#"> Lấy lại</a></p>
+    <p>Chưa có tài khoản ?<a href="#"> Tạo tài khoản mới</a></p>
+    <input type="submit" value="Đăng nhập" class="btn">
+  </form>
+
+</header>
+
+<!--delivery start-->
+<div class="path">
+  <h3>Menu us</h3>
+  <p><a href="home.html">home</a><span> / Menu</span></p>
+</div>
+  <section class="delivery">
+    <div class="container">
+      <div class="delivery-top-wrap">
+        <div class="delivery-top">
+          <div class="delivery-top-cart delivery-top-item">
+            <i class="fas fa-shopping-cart "></i>
+          </div>
+          <div class="delivery-top-adress delivery-top-item">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="delivery-top-payment delivery-top-item">
+            <i class="fas fa-money-check-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="delivery-content-row">
+        <div class="delivery-content-left">
+            <div class="delivery-content-left-item">
+              <label for="">Họ và tên</label>
+              <input type="text">
+            </div>
+            <div class="delivery-content-left-item">
+              <label for="">Điện thoại</label>
+              <input type="text">
+            </div>
+            <div class="delivery-content-left-item">
+              <label for="">Tỉnh/Thành phố</label>
+              <input type="text">
+            </div>
+            <div class="delivery-content-left-item">
+              <label for="">Quận/huyện</label>
+              <input type="text">
+            </div>
+            <div class="delivery-content-left-item">
+              <label for="">Địa chỉ</label>
+              <input type="text">
+            </div>
+        </div>
+        
+        <div class="delivery-content-right">
+          <table>
+            <tr>
+              <th>Tên Sản Phẩm</th>
+              <th>Giảm giá</th>
+              <th>Số lượng</th>
+              <th>Thành tiền</th>
+            </tr>
+            <tr>
+              <td>Cà phê loại 1</td>
+              <td>-20%</td>
+              <td>1</td>
+              <td><p>8.000<sup>đ</sup></p></td>
+            </tr>
+            <tr>
+              <td>Cà phê loại 1</td>
+              <td>-20%</td>
+              <td>1</td>
+              <td><p>8.000<sup>đ</sup></p></td>
+            </tr>
+            <tr>
+              <td style="font-weight: bold;" colspan="3">Tổng</td>
+              <td style="font-weight: bold;" colspan="3">16.000<sup>đ</sup></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="delivery-content-left-button">
+        <a href="cart_view.html"><span>&#171;</span><p> Quay lại giỏ hàng</p></a>
+        <a href="Payment.html"><button class="btn">THANH TOÁN VÀ GIAO HÀNG</button></a>
+      </div>
+    </div>
+  </section>
+    <!--delivery end-->
+
+<section class="footer">
+
+  <div class="box-container">
+
+    <div class="box">
+      <h3>Caffe<i class="fas fa-coffee"></i></h3>
+      <p>I would take 2 hours just to design headers of the site. And my CSS was too big, just for CSS, 
+        and you have created a beautiful header with so much concise CSS. 
+        You rock! Please tell me which theme of VS code you're using?</p>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+    </div>
+
+    <div class="box">
+      <h3>Liên Lạc</h3>
+      <a hidden# class="links"><i class="fas fa-phone"></i>123456789</a>
+      <a hidden# class="links"><i class="fas fa-envelope"></i>123456789</a>
+      <a hidden# class="links"><i class="fas fa-map-marker-alt"></i>Anywhere so far</a>
+    </div>
+   
+  </div> 
+</section>
+
+<div class="loader">
+  <img src="/thumbnails/Circles-menu-3.gif" alt="">
+</div>
+
+<div id="backtop">
+  <i class="fas fa-chevron-up"></i>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="coffeweb.js"></script>
+</body>
+</html>

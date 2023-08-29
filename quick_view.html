@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick-view</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="caffeweb.css">
+  
+</head>
+<body>
+
+<header class="header">
+
+  <a href="#" class="logo"><i class="fas fa-coffee"></i>Cafe</a>
+
+  <nav class="navbar">
+    <a href="homepage.html">home</a>
+    <a href="aboutpage.html">about</a>
+    <a href="menupage.html">menu</a>
+    <a href="contactpage.html/">contact</a>
+    <a href="#home">home</a>
+    <a href="#home">home</a>
+  </nav>
+
+
+  <div class="icons">
+    <div class="fas fa-bars" id="menu-btn"></div>
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <div class="fas fa-user" id="login-btn"></div>
+  </div>
+
+  <form action="" class="search-form">
+    <input type="search" class="search-box" placeholder="Tìm kiếm ...">
+    <label for="search-box" class="fa fa-search"></label>
+    </form>
+
+  <form action="" class="login-form">
+    <h3>login now</h3>
+    <input type="email" placeholder="Email" class="box">
+    <input type="password" placeholder="Mật khẩu" class="box">
+    <p>Quên mật khẩu ?<a href="#"> Lấy lại</a></p>
+    <p>Chưa có tài khoản ?<a href="#"> Tạo tài khoản mới</a></p>
+    <input type="submit" value="Đăng nhập" class="btn">
+  </form>
+
+</header>
+
+<!--Product start-->
+<div class="path">
+  <h3>Menu us</h3>
+  <p><a href="home.html">home</a><span> / Menu</span></p>
+</div>
+
+  <section class="Product">
+
+      <div class="Product-content">
+
+        <div class="Product-content-left">
+
+        <div class="Product-content-left-img">
+          <img src="/thumbnails/about-img.jpeg">
+        </div>
+
+        </div>
+
+        <form class="Product-content-right">
+
+          <div class="Product-content-right-name">
+            cà phê ly
+          </div>
+
+          <div class="Product-content-right-price-stars">
+          <div class="Product-content-right-price">
+            <p>10.000<sup>d</sup></p>
+           </div>
+           <div class="Product-content-right-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="Product-content-right-information">
+            <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.
+
+              Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum</p>
+          </div>
+
+          <div class="Product-content-right-buy">
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+            <button class="btn">Thêm vào giỏ hàng</button>
+          </div>
+          <div class="Product-content-right-information">
+            <p>
+            Category: <a href="#">Strong</a><br>
+            Tags: <a href="#">Barista</a>, <a href="#">Cream</a>, <a href="#">Robusta</a><br>
+            Product ID: 2377</p>
+          </div>
+
+        </form>
+
+      </div>
+
+  </section>
+
+
+  <section class="Product-bottom" id="Product-bottom">
+
+    <h1 class="heading">our <span> Blogs</span></h1>
+    
+    <div class="swiper mySwiper">
+
+      <div class="swiper-wrapper">
+  
+        <div class="swiper-slide">
+          <form accept="" method="post" class="box">
+            <img src="/thumbnails/blog-3.jpeg">
+            <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+            <a href="category.html" class="cat">fast food</a>
+            <div class="box-price">Giá: 10.000 vnd</div>
+            <div class="flex">
+              <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+           </div>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+          </form>
+        </div>
+  
+        <div class="swiper-slide">
+          <form accept="" method="post" class="box">
+            <img src="/thumbnails/blog-3.jpeg">
+            <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+            <a href="category.html" class="cat">fast food</a>
+            <div class="box-price">Giá: 10.000 vnd</div>
+            <div class="flex">
+              <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+           </div>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+          </form>
+        </div>
+  
+        <div class="swiper-slide">
+          <form accept="" method="post" class="box">
+            <img src="/thumbnails/blog-3.jpeg">
+            <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+            <a href="category.html" class="cat">fast food</a>
+            <div class="box-price">Giá: 10.000 vnd</div>
+            <div class="flex">
+              <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+           </div>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+          </form>
+        </div>
+  
+        <div class="swiper-slide">
+          <form accept="" method="post" class="box">
+            <img src="/thumbnails/blog-3.jpeg">
+            <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+            <a href="category.html" class="cat">fast food</a>
+            <div class="box-price">Giá: 10.000 vnd</div>
+            <div class="flex">
+              <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+           </div>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+          </form>
+        </div>
+  
+        <div class="swiper-slide">
+          <form accept="" method="post" class="box">
+            <img src="/thumbnails/blog-3.jpeg">
+            <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+            <a href="category.html" class="cat">fast food</a>
+            <div class="box-price">Giá: 10.000 vnd</div>
+            <div class="flex">
+              <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+           </div>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+          </form>
+        </div>
+  
+        <div class="swiper-slide">
+          <form accept="" method="post" class="box">
+            <img src="/thumbnails/blog-3.jpeg">
+            <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+            <a href="category.html" class="cat">fast food</a>
+            <div class="box-price">Giá: 10.000 vnd</div>
+            <div class="flex">
+              <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+           </div>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+          </form>
+        </div>
+  
+        <div class="swiper-slide">
+          <form accept="" method="post" class="box">
+            <img src="/thumbnails/blog-3.jpeg">
+            <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+            <a href="category.html" class="cat">fast food</a>
+            <div class="box-price">Giá: 10.000 vnd</div>
+            <div class="flex">
+              <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+           </div>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+          </form>
+        </div>
+  
+        <div class="swiper-slide">
+          <form accept="" method="post" class="box">
+            <img src="/thumbnails/blog-3.jpeg">
+            <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+            <a href="category.html" class="cat">fast food</a>
+            <div class="box-price">Giá: 10.000 vnd</div>
+            <div class="flex">
+              <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+           </div>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+          </form>
+        </div>
+  
+        <div class="swiper-slide">
+          <form accept="" method="post" class="box">
+            <img src="/thumbnails/blog-3.jpeg">
+            <a href="quick_view.html"><h3>Fresh and organic</h3></a>
+            <a href="category.html" class="cat">fast food</a>
+            <div class="box-price">Giá: 10.000 vnd</div>
+            <div class="flex">
+              <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+           </div>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+          </form>
+      </div>
+      
+      </div>
+      <div class="swiper-pagination"></div>
+  
+    </div>
+  </section>
+
+
+<!--Product end-->
+
+<section class="footer">
+
+  <div class="box-container">
+
+    <div class="box">
+      <h3>Caffe<i class="fas fa-coffee"></i></h3>
+      <p>I would take 2 hours just to design headers of the site. And my CSS was too big, just for CSS, 
+        and you have created a beautiful header with so much concise CSS. 
+        You rock! Please tell me which theme of VS code you're using?</p>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+    </div>
+
+    <div class="box">
+      <h3>Liên Lạc</h3>
+      <a hidden# class="links"><i class="fas fa-phone"></i>123456789</a>
+      <a hidden# class="links"><i class="fas fa-envelope"></i>123456789</a>
+      <a hidden# class="links"><i class="fas fa-map-marker-alt"></i>Anywhere so far</a>
+    </div>
+   
+  </div> 
+</section>
+
+<div class="loader">
+  <img src="/thumbnails/Circles-menu-3.gif" alt="">
+</div>
+
+<div id="backtop">
+  <i class="fas fa-chevron-up"></i>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="coffeweb.js"></script>
+</body>
+</html>

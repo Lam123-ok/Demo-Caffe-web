@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>payment</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="caffeweb.css">
+  
+</head>
+<body>
+
+<header class="header">
+
+  <a href="#" class="logo"><i class="fas fa-coffee"></i>Cafe</a>
+
+  <nav class="navbar">
+    <a href="homepage.html">home</a>
+    <a href="aboutpage.html">about</a>
+    <a href="menupage.html">menu</a>
+    <a href="contactpage.html/">contact</a>
+    <a href="#home">home</a>
+    <a href="#home">home</a>
+  </nav>
+
+
+  <div class="icons">
+    <div class="fas fa-bars" id="menu-btn"></div>
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <div class="fas fa-user" id="login-btn"></div>
+  </div>
+
+  <form action="" class="search-form">
+    <input type="search" class="search-box" placeholder="Tìm kiếm ...">
+    <label for="search-box" class="fa fa-search"></label>
+    </form>
+
+  <form action="" class="login-form">
+    <h3>login now</h3>
+    <input type="email" placeholder="Email" class="box">
+    <input type="password" placeholder="Mật khẩu" class="box">
+    <p>Quên mật khẩu ?<a href="#"> Lấy lại</a></p>
+    <p>Chưa có tài khoản ?<a href="#"> Tạo tài khoản mới</a></p>
+    <input type="submit" value="Đăng nhập" class="btn">
+  </form>
+
+</header>
+
+<!--payment start-->
+<div class="path">
+  <h3>Menu us</h3>
+  <p><a href="home.html">home</a><span> / Menu</span></p>
+</div>
+  <section class="payment">
+    <div class="container">
+      <div class="payment-top-wrap">
+        <div class="payment-top">
+          <div class="payment-top-cart payment-top-item">
+            <i class="fas fa-shopping-cart "></i>
+          </div>
+          <div class="payment-top-adress payment-top-item">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="payment-top-payment payment-top-item">
+            <i class="fas fa-money-check-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="container">
+  <div class="payment-conten row">
+    <div class="payment-conten-left">
+      <div class="payment-conten-left-method-delivery">
+        <p>
+          Phương thức giao hàng
+        </p>
+        <div class="payment-conten-left-method-delivery-item">
+          <input type="radio">
+          <label for="">Giao hàng chuyển phát nhanh</label>
+        </div>
+      </div>
+      <div class="payment-conten-left-method-payment">
+        <p>Phương thức thanh toán</p>
+        <div class="payment-conten-left-method-payment-item">
+          <input type="radio">
+          <label for="">Thanh toán bằng thẻ tín dụng(OnePay)</label>
+        </div>
+        <div class="payment-conten-left-method-payment-item-img">
+          <img src="/thumbnails/dich-vu-visa.jpg" alt="">
+        </div>
+        
+      </div>
+    </div>
+    <div class="payment-conten-right">
+      
+    </div>
+  </div>
+</div>
+  </section>
+  <!--payment end-->
+
+<section class="footer">
+
+<div class="box-container">
+
+  <div class="box">
+    <h3>Caffe<i class="fas fa-coffee"></i></h3>
+    <p>I would take 2 hours just to design headers of the site. And my CSS was too big, just for CSS, 
+      and you have created a beautiful header with so much concise CSS. 
+      You rock! Please tell me which theme of VS code you're using?</p>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+      </div>
+  </div>
+
+  <div class="box">
+    <h3>Liên Lạc</h3>
+    <a hidden# class="links"><i class="fas fa-phone"></i>123456789</a>
+    <a hidden# class="links"><i class="fas fa-envelope"></i>123456789</a>
+    <a hidden# class="links"><i class="fas fa-map-marker-alt"></i>Anywhere so far</a>
+  </div>
+ 
+</div> 
+</section>
+
+<div class="loader">
+<img src="/thumbnails/Circles-menu-3.gif" alt="">
+</div>
+
+<div id="backtop">
+<i class="fas fa-chevron-up"></i>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="coffeweb.js"></script>
+</body>
+</html>

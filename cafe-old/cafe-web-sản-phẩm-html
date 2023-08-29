@@ -1,0 +1,70 @@
+ <div class="products" id="product">
+    <h1 class="heading">Sản phẩm</h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+          <img img class="img-prd" src="/Cafe web.html/coffee website/images/product-1.png" alt="">
+        </div>
+        <div class="content">
+          <h3 class="content-product-h3">Cà phê Nicaragua</h3>
+          <div class="stars">
+            <i  class="fas fa-star"></i>
+            <i  class="fas fa-star"></i>
+            <i  class="fas fa-star"></i>
+            <i  class="fas fa-star"></i>
+            <i  class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">20.000VNĐ</div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+          <img img class="img-prd" src="/Cafe web.html/coffee website/images/product-2.png" alt="">
+        </div>
+        <div class="content">
+          <h3 class="content-product-h3">Cà phê Columbia</h3>
+          <div class="stars">
+            <i  class="fas fa-star"></i>
+            <i  class="fas fa-star"></i>
+            <i  class="fas fa-star"></i>
+            <i  class="fas fa-star"></i>
+            <i  class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">20.000VNĐ</div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+          <img src="/Cafe web.html/coffee website/images/product-3.png" alt="">
+        </div>
+        <div class="content">
+          <h3>Cà phê Peru</h3>
+          <div class="stars">
+            <i  class="fas fa-star"></i>
+            <i  class="fas fa-star"></i>
+            <i  class="fas fa-star"></i>
+            <i  class="fas fa-star"></i>
+            <i  class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">20.000VNĐ</div>
+        </div>
+      </div>
+    </div>
+  </div>
